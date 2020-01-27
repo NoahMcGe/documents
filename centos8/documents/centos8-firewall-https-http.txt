@@ -1,0 +1,6 @@
+centos8 firewall https http
+# firewall-cmd --zone=public --add-service=http
+# firewall-cmd --zone=public --add-service=https
+# firewall-cmd --zone=public --permanent --add-service=http
+# firewall-cmd --zone=public --permanent --add-service=https
+# firewall-cmd --reload

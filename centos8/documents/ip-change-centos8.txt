@@ -1,0 +1,27 @@
+/etc/sysconfig/network-scripts/
+
+file = "ifcfg-enp0s3" Conetents are
+
+TYPE="Ethernet"
+PROXY_METHOD="none"
+BROWSER_ONLY="no"
+BOOTPROTO="none"
+DEFROUTE="yes"
+IPV4_FAILURE_FATAL="no"
+IPV6INIT="yes"
+IPV6_AUTOCONF="yes"
+IPV6_DEFROUTE="yes"
+IPV6_FAILURE_FATAL="no"
+IPV6_ADDR_GEN_MODE="stable-privacy"
+NAME="enp0s3"
+UUID="4a2d8576-b210-4b4e-b3a4-4b217827b132"
+DEVICE="enp0s3"
+ONBOOT="yes"
+IPADDR="10.183.7.19"
+PREFIX="16"
+GATEWAY="10.183.0.1"
+DNS1="10.40.0.14"
+DNS2="10.40.0.25"
+DNS3="8.8.8.8"
+IPV6_PRIVACY="no"
+
