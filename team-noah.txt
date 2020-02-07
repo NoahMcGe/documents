@@ -1,4 +1,8 @@
 Noah
 Pres
 ZEEEEEEEIAKAIK
+<<<<<<< HEAD
 Shane the Mam with the plan in his hand
+=======
+Shane the Man with the plan in his hand
+>>>>>>> 00390194754cf418b39cca318c56f6d772102ad8
