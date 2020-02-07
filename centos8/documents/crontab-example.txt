@@ -1,0 +1,4 @@
+#type crontab -e to edit crontab -l to view without edit
+*/1 * * * * cd /home/ifb/http/git/assignments;git pull
+*/1 * * * * date >> /home/ifb/http/crontab.txt
+

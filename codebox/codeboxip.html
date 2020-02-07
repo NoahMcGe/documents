@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Perform various network address related calculations based on an IP address and a netmask size.">
+
+
+    
+    <link rel="stylesheet" type="text/css" href="codeboxip_files/ip-network-address-calculator.css">
+    
+
+</head>
+<body>
+      
+        
+        <section id="pageContent">
+
+
+<table id="mainTable">
+	<tbody><tr>
+		<td>
+			<span class="infoText">IP Address</span>
+		</td>
+		<td>
+			<input id="o1" class="inputBox" maxlength="3" value="172" type="text">
+			<span class="dot">.</span>
+			<input id="o2" class="inputBox" maxlength="3" value="18" type="text">
+			<span class="dot">.</span>
+			<input id="o3" class="inputBox" maxlength="3" value="124" type="text">
+			<span class="dot">.</span>
+			<input id="o4" class="inputBox" maxlength="3" value="2" type="text">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="infoText">Netmask size:</span>
+		</td>
+		<td>
+			<div id="slider">
+				<div id="sliderCentre"><!-- IE --></div>
+				<div class="scale" id="scale1"><!-- IE --></div>
+				<div class="scale" id="scale2"><!-- IE --></div>					
+				<div class="scale" id="scale3"><!-- IE --></div>
+				<div id="marker" style="left: 183px;"><!-- IE --></div>
+			</div>
+			<span id="netmask">30</span>
+		</td>
+	</tr>
+</tbody></table>
+
+<div id="output"><table><tbody><tr><td class="codeBold">Subnet Netmask</td><td class="codePlain">255.255.255.252</td></tr><tr><td class="codeBold">Network</td><td class="codePlain">172.18.124.0/30</td></tr><tr><td class="codeBold">Min Host</td><td class="codePlain">172.18.124.1</td></tr><tr><td class="codeBold">Max Host</td><td class="codePlain">172.18.124.2</td></tr><tr><td class="codeBold">Broadcast Address</td><td class="codePlain">172.18.124.3</td></tr><tr><td class="codeBold">Max Hosts on Subnet</td><td class="codePlain">2</td></tr></tbody></table></div></section>
+
+
+<p>© 2004-2019 Rob Dawson</p>
+
+
+<script src="codeboxip_files/codebox.js"></script><script src="codeboxip_files/jquery.js"></script><script src="codeboxip_files/ip-network-address-calculator.js"></script>
+
+
+<script type="application/javascript">
+    window.addEventListener('load', function(){
+        "use strict";
+        const mobileMenu = document.getElementById('mobileMenuButton'),
+                sidebarBarNav = document.getElementById('sidebarBarNav');
+        mobileMenu.onclick = function(){
+            sidebarBarNav.classList.toggle('open');
+        };
+    });
+</script>
+
+
+</body></html>

@@ -1,0 +1,45 @@
+AMD EPYC x86 CPU Model 7301 (16c/32t 2.2GHz)
+$853.99 
+https://www.amazon.com/AMD-PS7301BEAFWOF-Model-2-2GHz-Slots/dp/B077K641F6/ref=asc_df_B077K641F6/?tag=hyprod-20&linkCode=df0&hvadid=312824707815&hvpos=1o4&hvnetw=g&hvrand=14258846124719953066&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033810&hvtargid=pla-586473767181&psc=1
+
+SuperMicro MBD+H11SSL-i-B ATX Server Motherboard EPYC 7000-series
+$379.99
+https://www.newegg.com/supermicro-mbd-h11ssl-i-b-single-amd-epyc-7000-series-processor/p/1B4-005W-001V5?Description=SuperMicro%20MBD%2bH11SSL-i-B%20ATX%20Server%20Motherboard&cm_re=SuperMicro_MBD%2bH11SSL-i-B_ATX_Server_Motherboard-_-1B4-005W-001V5-_-Product
+
+Noctua NH-U9 TR4-SP3 Premium-Grade 92mm CPU Cooler for AMD TR4/SP3 
+$69.90 
+https://www.amazon.com/Noctua-NH-U9-TR4-SP3-premium-grade-cooler/dp/B074DXFB66/ref=as_li_ss_tl?s=electronics&ie=UTF8&qid=1515307907&sr=1-3&keywords=Noctua+NH-U9+TR4-SP3+CPU+Cooler&linkCode=sl1&tag=foi04-20&linkId=ad0f3b75577f7c66fef0ce75eb87db3b
+
+CORSAIR Vengeance LPX 128GB (8 x 16GB) 288-Pin DDR4 
+$548.99
+https://www.newegg.com/corsair-128gb-288-pin-ddr4-sdram/p/N82E16820233801
+
+CORSAIR RMx Series RM850x CP-9020180-NA 850W ATX12V / EPS12V 80 PLUS GOLD Certified Full Modular Power Supply 
+$129.99
+https://www.newegg.com/corsair-rmx-series-rm850x-cp-9020180-na-850w/p/N82E16817139234?Description=atx%20power%20suply&cm_re=atx_power_suply-_-17-139-234-_-Product
+
+Phanteks Enthoo Luxe PH-ES614LTG_AG Black Aluminum Faceplates Tempered Glass Panel Steel Chassis ATX Full Tower 
+$159.99
+https://www.newegg.com/gray-phanteks-enthoo-luxe-atx-full-tower/p/N82E16811854044
+
+Intel Solid State Drive (SSD), 660P Series, 1 TB  M.2
+$94.00 
+https://www.amazon.com/dp/B07GCL6BR4?tag=pcpapi-20&linkCode=ogi&th=1&psc=1
+
+NVIDIA - GeForce RTX 2060 SUPER 8GB GDDR6 PCI Express Graphics Card - Black/Silver
+$399.99
+https://www.bestbuy.com/site/nvidia-geforce-rtx-2060-super-8gb-gddr6-pci-express-graphics-card-black-silver/6361329.p?skuId=6361329
+
+(4x)Western Digital WD10EZEX 1TB Blue 7200RPM SATA 6.0Gb/s 3.5inch Hard Drive
+$44.89(4)=$179.56
+https://www.outletpc.com/dx5854-western-digital-caviar-blue-1tb.html?utm_source=dx5854-western-digital-caviar-blue-1tb&utm_medium=shopping%2Bengine&utm_campaign=pcpartpicker&utm_content=Western%20Digital%2B-%2BHard%20Drives%20%26%20SSD%20%3E%203%2E5%22%20SATA%20Hard%20Drives&sscid=a1k3_oeahb
+
+I/O Crest Blank Tray Storage Box Drawer for 5.25" Bay Drive for Any PC Desktop Computer
+$10(2x)
+https://www.amazon.com/IOCrest-Storage-Drawer-Desktop-Computer/dp/B01LY3YDLN/ref=sr_1_5?keywords=Front+Panel+Drive+Bay&qid=1572280436&sr=8-5
+
+EZDIY-FAB 2-Port USB 3.0 USB 2.0 HUB Power ESATA HD Audio All in-1 5.25 inch Metal Optical Drive Bay Front Panel Card Reader 
+$27.99
+https://www.amazon.com/EZDIY-FAB-2-Port-Power-Optical-Reader/dp/B07D6K9R61/ref=sr_1_2?keywords=Front+Panel+Drive+Bay&qid=1572280436&sr=8-2
+
+TOTAL = $2,864.39
