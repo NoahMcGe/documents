@@ -31,9 +31,7 @@ void loop() {
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
- if(cm){
-  
-  }
+
   // Read the signal from the sensor: a HIGH pulse whose
   // duration is the time (in microseconds) from the sending
   // of the ping to the reception of its echo off of an object.
@@ -58,5 +56,5 @@ void loop() {
 
   }
   
-  delay(70);
+  delay(20);
 }
