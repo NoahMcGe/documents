@@ -11,6 +11,7 @@ int trigPin = 11;    // Trigger
 int echoPin = 12;    // Echo
 int ledPin13 = 13; 
 int ledPin10 = 10;
+int ledPin9 = 9;
 long duration, cm, inches;
  
 void setup() {
@@ -55,6 +56,13 @@ void loop() {
   digitalWrite(ledPin13, LOW);
 
   }
-  
-  delay(20);
+   if(cm > 100){
+  digitalWrite(ledPin9, HIGH);
+
+  }
+     if(cm > 100){
+  digitalWrite(ledPin10, HIGH);
+
+  }
+  delay(100);
 }

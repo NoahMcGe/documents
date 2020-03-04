@@ -16,8 +16,9 @@ def info():
 	while True:
 		line = ser.readline();
 		line = line.decode("utf-8") #ser.readline returns a binary, convert to string
-		print(line,end="")
-		bash("echo "+line+" >> info.txt")
+		print(line)
+		bash('echo "' + line + '" >> info.txt')
+		bash('scp file.txt username@to_host:/home/noah/html/arduino-noah.txt')
 
 
 
