@@ -15,7 +15,6 @@ CREATE TABLE IF NOT EXISTS `hits` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=0;
 
 		CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
-		CREATE USER 'ifb'@'localhost' IDENTIFIED BY 'hero';
 		GRANT ALL PRIVILEGES ON *.* TO 'newuser'@'localhost';
 		FLUSH PRIVILEGES;
 		grant all privileges on stream.* TO 'nameofuser'@'localhost' IDENTIFIED BY 'PASSWORD'; 

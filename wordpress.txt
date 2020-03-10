@@ -1,0 +1,9 @@
+#NOAH MCGEHEE
+WordPress Notes:
+Download WP:
+	https://wordpress.org/latest.tar.gz
+Untar:
+	tar -xvf latest.tar.gz
+
+
+dnf install php-mysqli

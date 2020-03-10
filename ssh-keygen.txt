@@ -3,7 +3,7 @@ ssh-keygen -t rsa -b 4096
 	do that on bare metal
 	no passwords and what not
 	also dont change the name of it
-scp id_rsa.pub brucelee@10.183.7.19:/home/brucelee/.ssh/ifb.pub
+scp id_rsa.pub noah@10.183.5.254:/home/noah/.ssh/ifb.pub
 	be in the .ssh folder
 cat ifb.pub >> authorized_keys
 chmod 755 ~/.ssh/ *
