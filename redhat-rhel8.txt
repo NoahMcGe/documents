@@ -1,0 +1,60 @@
+This is how to login:
+chmod 400 *.pem
+ssh -i yourkey.pem ec2-user@ec2-******.compute-1.amazonaws.com
+Resources:
+https://console.aws.amazon.com
+https://github.com/tritech-cyber/redhat
+
+Installation list:
+
+dnf update;
+dnf install python2 python3;
+dnf install httpd;
+dnf install tcpdump;
+systemctl enable httpd;
+systemctl start httpd;
+dnf module install php;
+dnf module install php:7.2/common;
+dnf install php-mysqlnd;
+systemctl restart httpd.service;
+systemctl restart php-fpm.service; 
+dnf search cockpit;
+dnf install cockpit;
+
+#todo
+* type: curl ifconfig.co .  What do you get?
+curl icanhazip.com
+*  What is your public and private ip? Use command line.
+*  Create a repo for your website.
+   - Create a webpage foryour AWS EC2 RHEL instance.
+		Webpage requirement:
+			Use /var/www/html
+			Create a data foder in /var/www/html/data/
+			Add a .htaccess file to /var/www/html/data/ to enable file lising.
+			Copy /var/ access log to /var/www/html/data/
+			Link to tcpdump file.pcap file.
+			Link to python server (your choice of ports)
+* Create a user with a password for cockpit login; 9090
+	Change groups for that user so they can write to /var/www/html
+	I've used apache group   (usermod -aG  apache user)
+* Perform a 60 minute tcpdump to a file.  Upload to github.
+     tcpdump -w 200306-0937.pcap -i eth0 
+* Set users and groups.
+* Post rules on github.
+* Run a simple python web server.
+   python3 -m http.server 8000
+* What is Route 53 (Post on github in repo used for the html)
+Extra:
+Write code in python or bash to call from php.
+
+
+
+sudo groupadd pcap
+sudo usermod -a -G pcap $USER
+sudo chgrp pcap /usr/sbin/tcpdump
+sudo setcap cap_net_raw,cap_net_admin=eip /usr/sbin/tcpdump
+sudo ln -s /usr/sbin/tcpdump /usr/bin/tcpdump
+
+
+
+

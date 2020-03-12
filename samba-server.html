@@ -1,0 +1,153 @@
+<html><head><title>
+Debian Samba Server</title>
+<link rel="stylesheet" href="css/cyber.css">
+<style>
+pre {
+		display:inline-block;
+		font-family:sans-serif;
+		font-size: 14px;
+		background-color: #F5F5F5	;	
+		padding: 20px;
+	
+}
+
+.code{
+		 position: absolute;
+    left: 50px;
+    top: 20px;
+    width:90%;
+		padding: 5px;
+	
+}
+
+
+.highlight{
+	background-color:#ffff00;
+	color: #f00;
+	
+}
+		
+	
+
+</style>
+</head>
+<div class = "code">
+<pre>
+<h1>
+Source:
+https://wiki.debian.org/SambaServerSimple
+</h1>
+<span style="color:red" >
+Install Samba Server
+
+# apt-get install samba
+
+Install Samba Client
+
+# apt-get install samba-client
+Configure the Samba daemon
+
+
+Edit the Samba configuration file.
+#cd /etc/samba/
+#ls -l
+It would be a good idea to back up this file as su
+#cp smb.conf smb.conf.bak.170516
+
+# nano /etc/samba/smb.conf
+
+In the global section, check the name of the workgroup. 
+It might be useful to know it when you'll try to connect from a Windows machine:
+Our Windows Work Group is CYBER
+[global]
+   ...
+   workgroup = CYBER
+   
+Locate the home share definition:
+Example from Coleman:
+This goes at the end of the smb.conf file:
+
+[share]
+   comment = Some useful files
+   read only = no
+   locking = no
+   path = /home/users/share
+   valid users = share cwc
+   guest ok = no
+
+Add Samba users
+Samba uses it's own password system so users need to be added by root. 
+**********************************
+Notes from Coleman 
+Create a directory in /home/ called users
+#mkdir /home/users
+
+Add a Linux User and place it in the /home/users/
+# useradd -m -d /home/users/username  username
+!! Do not create a Linux passwork for this user.
+*****************************************************
+* There are a lot of ways to set up users.          *
+* This method will protect your ~/ (home) directory.*
+*****************************************************
+
+Creating a Samba password.
+	<span style="background-color: #dedede">
+# smbpasswd -a me
+# smbpasswd -a you
+</span>
+
+
+This is how you start the service:
+#systemctl start smbd
+#systemctl restart smbd
+
+# smbpasswd -a share
+
+   </span>
+
+   
+
+Additional notes:
+You will be prompted for a password for each of those users.
+
+To list existing Samba users:
+
+pdbedit -w -L
+Restart the Samba daemon
+
+# /etc/init.d/samba restart
+or, if you are using systemd
+
+# /usr/sbin/service smbd restart
+
+or
+
+#systemctl start smbd
+#systemctl restart smbd
+
+To access my share:
+
+$ smbclient //ourmachine/me
+To access your share:
+
+$ smbclient -U you //ourmachine/you
+To access our shared(!) share:
+
+$ smbclient //ourmachine/ourfiles
+
+
+  Additional notes from https://wiki.debian.org/SambaServerSimple
+</div>
+</pre>
+</div>
+<footer>
+000  fff  00f  425c9f  6981c7   8eb1e1 <br />
+HTML Gainsboro	#DCDCDC	rgb(220,220,220)
+#E0E0E0	rgb(224,224,224)
+#E8E8E8	rgb(232,232,232)
+#F0F0F0	rgb(240,240,240)
+HTML WhiteSmoke	#F5F5F5	rgb(245,245,245)
+#F8F8F8	rgb(248,248,248)
+HTML White	#FFFFFF	rgb(255,255,255)
+
+</footer>

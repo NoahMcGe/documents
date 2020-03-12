@@ -1,0 +1,10 @@
+# Add fastestmirror=true
+# to the end of /etc/dnf/dnf.conf
+#nano /etc/dnf/dnf.conf 
+[main]
+gpgcheck=1
+installonly_limit=3
+clean_requirements_on_remove=True
+best=True
+fastestmirror=true
+[root@localhost dnf]# 
