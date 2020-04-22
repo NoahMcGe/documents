@@ -1,0 +1,5 @@
+sudo apt/dnf install cockpit
+
+sudo systemctl enable cockpit.socket
+
+sudo systemctl status cockpit
