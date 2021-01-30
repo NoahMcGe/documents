@@ -1,1 +1,4 @@
 $ sudo usermod -aG wheel <user>
+
+and for debian
+$ sudo usermod -aG sudo <user>
